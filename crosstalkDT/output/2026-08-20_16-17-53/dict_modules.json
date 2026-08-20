@@ -1,0 +1,15 @@
+{
+  "log": "FELIS LOG: Initializing Felis unspecified \nFELIS ERROR: Failed to copy 'files/fc7_board_3_Run000796_PixelAlive_Board_0_Hybrid_1.root': [Errno 2] No such file or directory: 'files/fc7_board_3_Run000796_PixelAlive_Board_0_Hybrid_1.root' \n",
+  "SH0180": {
+    "module_specs": {
+      "name_module": "SH0180",
+      "type_module": "2x2",
+      "subdetector": "TFPX",
+      "croc_version": 2,
+      "has_sensor": true,
+      "type_sensor": "unspecified",
+      "link_production_db": "unspecified"
+    },
+    "results": {}
+  }
+}

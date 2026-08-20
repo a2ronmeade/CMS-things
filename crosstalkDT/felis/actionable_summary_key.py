@@ -1,0 +1,87 @@
+"""
+Set of actionable summary features. When writing your rubric, put the chip ID
+in place of the {}. 
+"""
+
+key_AS = {
+  "scurve":
+    [
+    "SCURVE_THRESHOLD_MEAN_{}",
+    "SCURVE_THRESHOLD_WIDTH_{}",
+    "SCURVE_NOISE_MEAN_{}",
+    "SCURVE_NOISE_WIDTH_{}",
+    "SCURVE_N_CORRUPTED"
+    ],
+  "latency":
+    [
+    "LATENCY_MODE_{}",
+    "LATENCY_WIDTH_{}",
+    "LATENCY_N_CORRUPTED"
+    ],
+  "thradj":
+    [
+    "THRADJ_GDAC_{}",
+    "THRADJ_N_CORRUPTED{}"
+    ],
+  "threqu":
+    [
+    "THREQU_TDAC_MEAN_{}",
+    "THREQU_TDAC_STDDEV_{}",
+    "THREQU_TDAC_OUTLIERS_{}",
+    "THREQU_N_CORRUPTED"
+    ],
+  "injdelay":
+    [
+    "INJDELAY_MEAN_{}",
+    "INJDELAY_STDDEV_{}",
+    "INJDELAY_BEST_{}",
+    "INJDELAY_N_CORRUPTED"
+    ],
+  "noise":
+    [
+    "NOISE_NUM_MASKED_PIXELS_{}",
+    "NOISE_N_CORRUPTED"
+    ],
+  "pixelalive":
+    [ # "EN_CORE_COL_0" AS are not included here because not used for grading
+    "PIXELALIVE_NUM_BAD_COLUMNS_{}",
+    "PIXELALIVE_TOTAL_BAD_COLUMNS",
+    "PIXELALIVE_OCC_MEAN_{}",
+    "PIXELALIVE_OCC_STDDEV_{}",
+    "PIXELALIVE_MASKEDPIXELS_NUM_ENTRIES_{}",
+    "PIXELALIVE_N_CORRUPTED"
+    ],
+  "gain":
+    [
+    "GAIN_SLOPE_MEAN_{}",
+    "GAIN_SLOPE_WIDTH_{}",
+    "GAIN_INTERCEPT_MEAN_{}",
+    "GAIN_INTERCEPT_WIDTH_{}",
+    "GAIN_N_CORRUPTED"
+    ],
+  "gainopt":
+    [
+    "GAINOPT_N_CORRUPTED"
+    ],
+  "sldo":
+    [
+    "SLDO_PLACEHOLDER_{}"
+    ],
+  "ivcurve":
+    [
+    "IVCURVE_MINTEMP",
+    "IVCURVE_I_25",
+    "IVCURVE_I_80",
+    "IVCURVE_I_100",
+    "IVCURVE_I_120",
+    "IVCURVE_BREAKDOWN"
+    ],
+  "crosstalk":
+    [
+    "CROSSTALK_N_DISCONNECTEDBUMPS_{}",
+    "CROSSTALK_LARGESTCLUSTER_{}",
+    "CROSSTALK_N_CORRUPTED1",
+    "CROSSTALK_N_CORRUPTED5",
+    "CROSSTALK_N_CORRUPTED6"
+    ]
+}

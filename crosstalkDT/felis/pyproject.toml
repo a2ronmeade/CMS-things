@@ -1,0 +1,37 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+#[tool.setuptool-git-versioning]
+#enabled = true
+
+[project]
+    name = "felis"
+    authors = [
+        { name = "Scott Demarest", email = "scott.demarest@cern.ch" },
+    ]
+    #dynamic = ["version"]
+    version = "1.0"
+    description = "Felis"
+    readme = "README.md"
+    #license = ""
+    requires-python = ">=3.9" # Not sure about that
+    classifiers = [
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
+    ]
+    dependencies = [
+        "requests>=2.32.2",
+        "requests_toolbelt>=1.0.0",
+        "tqdm>=4.66.5",
+        "datetime>=5.5",
+    ]
+
+[tool.setuptools.packages.find]
+include = ["felis.py", "felis_methods.py"]
+exclude = ["felis_tester*", "requirements.txt"]
+
+[project.urls]
+Homepage = "https://gitlab.cern.ch/sdemares/felis"
+

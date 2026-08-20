@@ -1,0 +1,39 @@
+{
+  "log": "FELIS LOG: Initializing Felis unspecified \n(True, 'Crosstalk analysis completed successfully.', True, '')\n",
+  "SH0180": {
+    "module_specs": {
+      "name_module": "SH0180",
+      "type_module": "2x2",
+      "subdetector": "TFPX",
+      "croc_version": 2,
+      "has_sensor": true,
+      "type_sensor": "unspecified",
+      "link_production_db": "unspecified"
+    },
+    "results": {
+      "CROSSTALK": {
+        "AS": {
+          "CROSSTALK_N_DISCONNECTEDBUMPS_12": 56,
+          "CROSSTALK_LARGESTCLUSTER_12": 4,
+          "CROSSTALK_N_DISCONNECTEDBUMPS_13": 28,
+          "CROSSTALK_LARGESTCLUSTER_13": 1,
+          "CROSSTALK_N_DISCONNECTEDBUMPS_14": 60,
+          "CROSSTALK_LARGESTCLUSTER_14": 1,
+          "CROSSTALK_N_DISCONNECTEDBUMPS_15": 30,
+          "CROSSTALK_LARGESTCLUSTER_15": 1,
+          "CROSSTALK_N_CORRUPTED1": 0,
+          "CROSSTALK_N_CORRUPTED5": 0,
+          "CROSSTALK_N_CORRUPTED6": 0
+        },
+        "paths_files": [
+          "output/2026-08-20_16-18-17/SH0180/CROSSTALK/fc7_board_3_Run000796_PixelAlive_Board_1_Hybrid_1.root",
+          "output/2026-08-20_16-18-17/SH0180/CROSSTALK/fc7_board_3_Run000797_PixelAlive_Board_1_Hybrid_1.root",
+          "output/2026-08-20_16-18-17/SH0180/CROSSTALK/fc7_board_3_Run000798_PixelAlive_Board_1_Hybrid_1.root"
+        ],
+        "type_test": "crosstalk",
+        "time": "2026-08-20 20:18:18",
+        "comment": ""
+      }
+    }
+  }
+}
